@@ -1,16 +1,27 @@
-import { Stack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar"
 import Body from "./Body"
-
+import LastFooter from "./Components/LastFooter"
+import SecondLast  from "./Components/SecondLast"
 import './App.css';
 
 
 function App() {
   return (
-    <Stack className="App">
+    <Box className="App" bg={'#F7F7F7'} >
       <Navbar />
-      {/* <Body /> */}
-    </Stack>
+
+      <Body />
+
+      <SecondLast/>
+      <br/>
+      <LastFooter />
+
+
+
+
+
+    </Box>
 
   );
 }
