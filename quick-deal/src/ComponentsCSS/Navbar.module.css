@@ -10,7 +10,10 @@
 }
 
 .sideContainer {
-    display: flex
+    display: flex;
+    width: 90%;
+    margin: auto;
+    border: 5px solid green;
 }
 
 .sideHead {
@@ -21,9 +24,9 @@
 
 .sideBody {
     width: 50%;
-    height: 10%;
+    height: 80%;
     border: 1px solid black;
     position: absolute;
-    left: 15%;
-    top: 22%
+    left: 19.5%;
+    top: 18.3%
 }
