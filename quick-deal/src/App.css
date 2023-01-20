@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  height: 100vh;
+  /* height: 100vh; */
   border: 3px solid blue;
 
 }
@@ -10,4 +10,49 @@
 #inputID::placeholder {
   color: #A89999;
   opacity: 1;
+}
+
+
+
+.slider {
+  background-color: #ccc;
+  height: 417px;
+  width: 95%;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.slick-slide > div{
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.card {
+  border: 1px solid #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  overflow: hidden;
+  height: 393px;
+  width: 232px;
+}
+
+.card-Top
+{
+  border: 1px solid black;
+  width: 100%;
+  height: 80%;
+
+  object-fit: cover;
+}
+.card-Top>Img{
+ width: 100%;  
+ 
+  border: 3px solid orangered;
+}
+.card-bottom{
+  text-align: center;
+  height: 30%;
+  border: 3px solid rgb(19, 236, 80);
+ 
 }
