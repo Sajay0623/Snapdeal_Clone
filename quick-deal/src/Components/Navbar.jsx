@@ -7,7 +7,7 @@ const Navbar = () => {
 
 
     return (
-        <Box zIndex={2} border='3px solid black' position="sticky" top="0">
+        <Box zIndex={10} border='3px solid black' position="sticky" top="0">
             <Box mt={0} bg="#C6003D" w="100%" h="30px" border="1px solid red" display="flex" justifyContent="space-between" fontSize='12px' pl="91px" pr="91px" alignItems="center" color="white" >
                 <Box w="40%" border="1px solid yellow">Brand Waali Quality, Bazaar Waali Deal!</Box>
 
@@ -32,7 +32,7 @@ const Navbar = () => {
                 bg="#E40046"
 
             >
-                <Box w="200px" h="32px" border="1px solid red" ></Box>
+                <Box w="200px" h="32px" border="1px solid red" > <Image src = ""  ></Image>   </Box>
                 <Box display="flex" alignItems="center" w="779px"   >  <Input id="inputID" bg="white" borderRadius={0} w="80%" border="1px solid red" type="text" placeholder="Search products & brands" />
                     <Button fontSize={14} borderRadius={0} > <SearchIcon mr="5px" /> Search</Button></Box>
                 <Box><Button>Cart</Button>   </Box>

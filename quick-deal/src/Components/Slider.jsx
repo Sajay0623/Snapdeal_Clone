@@ -54,7 +54,7 @@ let data = [{
 
 const MySlider = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -66,7 +66,7 @@ const MySlider = () => {
 
     return (
         <div className="slider"   >
-            <Slider {...settings}>
+            <Slider  {...settings}>
                 {data.map((item) => (
                     <div key={item.id} className="card" >
                         <div className="card-Top" >
@@ -75,10 +75,9 @@ const MySlider = () => {
                         </div>
                         <div className="card-bottom" >
                             <Text size="sm" >{item.name}</Text>
-                          
-                                <Text>  Price: {item.price} </Text>
-                                
-                        
+
+                            <Text>  Price: {item.price} </Text>
+
 
 
                         </div>
@@ -94,3 +93,43 @@ const MySlider = () => {
 
 
 export default MySlider
+
+
+
+// export default class AutoPlay extends Component {
+//     render() {
+//         const settings = {
+//             dots: true,
+//             infinite: true,
+//             slidesToShow: 3,
+//             slidesToScroll: 1,
+//             autoplay: true,
+//             speed: 2000,
+//             autoplaySpeed: 2000,
+//             cssEase: "linear"
+//         };
+//         return (
+//             <div style={{ border: "3px solid blue" }}  >
+//                 <h2>Auto Play</h2>
+//                 <Slider {...settings}>
+//                     {data.map((item) => (
+//                         <div key={item.id} className="card" >
+//                             <div className="card-Top" >
+//                                 <Image src={item.image}  ></Image>
+
+//                             </div>
+//                             <div className="card-bottom" >
+//                                 <Text size="sm" >{item.name}</Text>
+
+//                                 <Text>  Price: {item.price} </Text>
+
+
+
+//                             </div>
+//                         </div>
+//                     ))}
+//                 </Slider>
+//             </div>
+//         );
+//     }
+// }
