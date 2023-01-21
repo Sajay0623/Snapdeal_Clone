@@ -15,11 +15,11 @@
 
 
 .slider {
-  background-color: #ccc;
+  background-color: white;
   height: 417px;
   width: 95%;
   margin: auto;
-  border: 1px solid red;
+ 
 }
 
 .slick-slide > div{
@@ -31,7 +31,7 @@
 
 .card {
   border: 1px solid #fff;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   overflow: hidden;
   height: 393px;
   width: 232px;
@@ -48,11 +48,11 @@
 .card-Top>Img{
  width: 100%;  
  
-  border: 3px solid orangered;
+  
 }
 .card-bottom{
   text-align: center;
   height: 30%;
-  border: 3px solid rgb(19, 236, 80);
+ 
  
 }

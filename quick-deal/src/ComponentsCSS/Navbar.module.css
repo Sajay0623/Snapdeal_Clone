@@ -25,9 +25,9 @@
 .sideBody {
     width: 50%;
     height: 80%;
-    border: 1px solid black;
+    border: 5px solid black;
     position: absolute;
-    left: 19.5%;
+    left: 15.5%;
     top: 122px;
-    background:orange
+    background: orange
 }

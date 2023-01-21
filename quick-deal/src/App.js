@@ -2,12 +2,12 @@ import { Box } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar"
 import Body from "./Body"
 import LastFooter from "./Components/LastFooter"
-import SecondLast  from "./Components/SecondLast"
-import LargeWithLogoCentered from "./Components/Thirdlast"
+import SecondLast from "./Components/SecondLast"
+ import LargeWithLogoCentered from "./Components/Thirdlast"
 import ForthLast from "./Components/ForthLast"
-import MySlider from "./Components/Slider"
-import './App.css';
 
+import './App.css';
+ 
 
 function App() {
   return (
@@ -16,16 +16,16 @@ function App() {
 
       <Body />
         <ForthLast/>
-      <LargeWithLogoCentered/>
+        <LargeWithLogoCentered/>
 
       <SecondLast/>
       <br/>
       <LastFooter />
 
 
-       <MySlider/>
+      
 
-
+     
     </Box>
 
   );
