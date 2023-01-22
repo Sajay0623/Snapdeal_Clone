@@ -2,7 +2,7 @@ import { Box, Heading } from "@chakra-ui/react"
 const LastFooter = () => {
     return (
 
-        <Box width=" 90%" ml="90px" mr="90px" mt={0} border="5px solid green" bg="#f7f7f7" fontSize={'12px'} color="#777777" >
+        <Box width=" 90%" ml="90px" mr="90px" mt={0}   bg="#f7f7f7" fontSize={'12px'} color="#777777" >
             <Box   > <Heading as='h6' size='xs'  >Men:</Heading>      <p       >Shirts for Men / Casual Shirts for Men / Formal Shirts for Men / Hoodies for Men / Cotton Shirts for Men / T Shirts for Men / Polo T shirts / Kurta Pajama for Men / White Shirt / Black Shirt / Lower for Men / Trousers for Men / Jacket for Men / Formal Pants for Men / Tracksuit for Men / Jeans for Men / Kurta Payjama Sets / Kurta for Men / Blazer for Men / Sweater for Men</p>  </Box>
 
             <Box ><Heading as='h6' size='xs' lineHeight={'10px'} >Women:</Heading>  Tops for Women / Kurti / Cotton Sarees / Georgette Sarees / Chiffon Sarees / Net Sarees / Dresses for Women / Jumpsuit for Women / Jeans for Women / Salwar Suit / Bra / Jacket for Women / Night Dress for Women / Sweatshirt for Women / Shorts for Women / Readymade Blouse / Dupatta / T Shirt for Women / Shirts for Women / Skirts for Women / Ethnic wear for Women / Western Dresses for Women / Leggings for Women</Box>

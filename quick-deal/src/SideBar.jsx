@@ -24,12 +24,12 @@ const ListHeader = ({ children }) => {
 
 export default function OnMouseSideBar() {
     return (
-        <Box border='2px solid red' w='4xl' className='.sideBody '
+        <Box   w='4xl' className='.sideBody '
             bg={useColorModeValue('gray.50', 'gray.900')}
             color={useColorModeValue('gray.700', 'gray.200')}>
             <Container as={Stack} maxW={'4xl'} >
                 <SimpleGrid columns={3} spacingX='10px' spacingY='10px'>
-                    <Stack align={'flex-start'} border="1px solid red"   >
+                    <Stack align={'flex-start'}    >
                         <ListHeader>FOOTWEAR</ListHeader>
                         <Link fontSize={'12px'} href={'#'}>Sports Shoes</Link>
                         <Link fontSize={'12px'} href={'#'}>Casual Shoes</Link>
@@ -41,7 +41,7 @@ export default function OnMouseSideBar() {
                         <Link fontSize={'12px'} href={'#'}>Ethnic Footwear</Link>
                         <Link fontSize={'12px'} href={'#'}>Shoe Accessories</Link>
                     </Stack>
-                    <Stack align={'flex-start'} border="1px solid red" >
+                    <Stack align={'flex-start'}  >
                         <ListHeader>CLOTHING</ListHeader>
                         <Link fontSize={'12px'} href={'#'}>T-Shirt 7 Polos</Link>
                         <Link fontSize={'12px'} href={'#'}>Shirts</Link>

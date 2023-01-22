@@ -1,31 +1,26 @@
 import { Box } from "@chakra-ui/react";
-import Navbar from "./Components/Navbar"
+
 import Body from "./Body"
-import LastFooter from "./Components/LastFooter"
-import SecondLast from "./Components/SecondLast"
- import LargeWithLogoCentered from "./Components/Thirdlast"
-import ForthLast from "./Components/ForthLast"
+
 
 import './App.css';
- 
+import AllRoutes from "./Components/AllRoutes"
+import { Link } from "react-router-dom";
+
 
 function App() {
   return (
     <Box className="App" bg={'#F7F7F7'} >
-      <Navbar />
-
-      <Body />
-        <ForthLast/>
-        <LargeWithLogoCentered/>
-
-      <SecondLast/>
-      <br/>
-      <LastFooter />
-
-
-      
-
+   
+      <AllRoutes/>
      
+    
+     
+
+
+
+
+
     </Box>
 
   );
