@@ -35,18 +35,22 @@
   overflow: hidden;
   height: 393px;
   width: 232px;
+  text-align: center;
 }
 
 .card-Top
 {
-  border: 1px solid black;
+  
   width: 100%;
   height: 80%;
 
   object-fit: cover;
 }
 .card-Top>Img{
- width: 100%;  
+  display: block;
+ width: 250px;
+ height: 250px;  
+ margin: auto;
  
   
 }

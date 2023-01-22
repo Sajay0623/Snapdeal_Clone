@@ -56,7 +56,7 @@ const MySlider = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
@@ -70,7 +70,7 @@ const MySlider = () => {
                 {data.map((item) => (
                     <div key={item.id} className="card" >
                         <div className="card-Top" >
-                            <Image src={item.image}  ></Image>
+                            <Image   src={item.image}  ></Image>
 
                         </div>
                         <div className="card-bottom" >
