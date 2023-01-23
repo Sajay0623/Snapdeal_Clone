@@ -49,9 +49,9 @@ const Product = () => {
                 <option value='women'>Womens Fashion</option>
             </Select>
             {cat == 'men' ? <Select w="20%" margin={'auto'} value={val} onChange={(e) => setVal(e.target.value)}  >
-                <option value='sport'>Jeans</option>
-                <option value='casual'>T-Shirts</option>
-                <option value='shirt'>Shirts</option>
+                <option value='sport'>Sport</option>
+                <option value='casual'>Casual</option>
+                <option value='shirt'>Sneaker</option>
             </Select> : <Select w="20%" margin={'auto'} value={val} onChange={(e) => setVal(e.target.value)} placeholder='Select option'>
                 <option value='jeans'>Jeans</option>
                 <option value='lehngas'>Lehngas</option>
