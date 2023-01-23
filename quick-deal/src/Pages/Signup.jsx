@@ -26,15 +26,15 @@ export default function Signup() {
     return (
 
         <Box w='full' bg='#E6E6FA' >
-            <Box m='auto' w='20%' py={10}>
+            <Box m='auto' w='20%' py={6}>
                 <Link to='/'>
-                    <Image w='100%' src='https://i.postimg.cc/yxt1pyrx/Quick-Deal.png' />
+                    <Image w='100%' h = '70px' src='https://i.postimg.cc/yxt1pyrx/Quick-Deal.png' />
                 </Link>
             </Box>
-            <Box bg='#E0FFFF' w='40%' m='auto' borderRadius={15} pt={20} pb={70} >
-                <Heading size='2xl'>CREATE ACCOUNT</Heading>
-                <Text fontSize={20} pt={5}>Continue with</Text>
-                <Box pt={16} w='40%' m='auto' sx={{ display: 'flex', justifyContent: 'space-between' }}>
+            <Box bg='#E0FFFF' w='40%' m='auto' borderRadius={15} pt={6} pb={20} textAlign="center" >
+                <Heading size='xl'>CREATE ACCOUNT</Heading>
+                <Text fontSize={20} pt={1}>Continue with</Text>
+                <Box pt={6} w='40%' m='auto' sx={{ display: 'flex', justifyContent: 'space-between' }}>
                     <Box h={16} w={16} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', bg: 'white', borderRadius: '10px' }}>
                         <Image h='50%' src='https://www.shareicon.net/data/512x512/2016/07/10/119930_google_512x512.png'></Image>
                     </Box>
@@ -58,7 +58,7 @@ export default function Signup() {
                         <Button onClick={handleclick} mt={5} w='full' borderRadius='full' color='white' bg='#0693e3'> CREATE ACCOUNT</Button>
                     </FormControl>
                 </Box>
-                <Text mt={10} >Already a member?
+                <Text mt={4} >Already a member?
                     <Link to='/login'>Sign In</Link></Text>
             </Box>
         </Box>

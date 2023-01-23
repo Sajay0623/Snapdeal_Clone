@@ -8,18 +8,18 @@ const Navbar = () => {
 
     return (
 
-        <Box zIndex={10}  position="sticky" top="0" >
+        <Box zIndex={10} position="sticky" top="0" >
 
 
 
-            <Box mt={0} bg="#C6003D" w="100%" h="30px"   display="flex" justifyContent="space-between" fontSize='12px' pl="91px" pr="91px" alignItems="center" color="white" >
+            <Box mt={0} bg="#C6003D" w="100%" h="30px" display="flex" justifyContent="space-between" fontSize='12px' pl="91px" pr="91px" alignItems="center" color="white" >
                 <Box w="40%" >Brand Waali Quality, Bazaar Waali Deal!</Box>
 
                 <Box w="40%" display="flex" justifyContent="space-between"   >
                     <Text >Impact@Snapdeal</Text>
                     <Text>Gift Cards</Text>
                     <Text>Help Center</Text>
-                    <Text>Sell On Snapdeal</Text>
+                    <Link to="/seller"  >Sell On Snapdeal</Link>
                     <Text><a href=""> <i className="fas fa-mobile-alt"></i> Download App</a></Text>
                 </Box>
             </Box>

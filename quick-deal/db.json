@@ -1,12 +1,21 @@
 {
-
- 
-
-  "Men's_Fashion": {
+  "data": [
+    {
+      "name": "ASIAN MISILE-01 Black Running",
+      "image": "https://n4.sdlcdn.com/imgs/j/v/n/ASIAN-MISILE-01-Black-Running-SDL521144278-1-27a1f.jpg",
+      "price": "500",
+      "strikedOfprice": "800",
+      "rating": "4.5",
+      "id": 1,
+      "size": "8"
+    }
+    
+  ],
+  "Men_Fashion": {
     "icon": "https://i3.sdlcdn.com/img/leftnavicon09/30x30mobile4.png",
     "title": "Men's Fashion",
     "FootWear": {
-      "sports & shoes": [
+      "sportsshoes": [
         {
           "name": "ASIAN White Running Shoes",
           "image": "https://n3.sdlcdn.com/imgs/i/z/e/230X258_sharpened/ASIAN-White-Running-Shoes-SDL803356221-1-9c5da.webp",
@@ -22,7 +31,7 @@
           "price": "625",
           "strikedOfprice": "669",
           "rating": "5",
-          "id": 1,
+          "id": 2,
           "size": "6"
         },
         {
@@ -31,7 +40,7 @@
           "price": "599",
           "strikedOfprice": "999",
           "rating": "4",
-          "id": 2,
+          "id": 3,
           "size": "8"
         },
         {
@@ -40,7 +49,7 @@
           "price": "799",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3,
+          "id": 4,
           "size": "7"
         },
         {
@@ -49,7 +58,7 @@
           "price": "799",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3,
+          "id": 5,
           "size": "6"
         },
         {
@@ -58,7 +67,7 @@
           "price": "799",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3,
+          "id": 6,
           "size": "8"
         },
         {
@@ -67,7 +76,7 @@
           "price": "725",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3,
+          "id": 7,
           "size": "6"
         },
         {
@@ -76,7 +85,7 @@
           "price": "500",
           "strikedOfprice": "800",
           "rating": "4.5",
-          "id": 3,
+          "id": 8,
           "size": "8"
         },
         {
@@ -85,7 +94,7 @@
           "price": "875",
           "strikedOfprice": "1200",
           "rating": "4.5",
-          "id": 3,
+          "id": 9,
           "size": "5"
         },
         {
@@ -94,7 +103,7 @@
           "price": "800",
           "strikedOfprice": "1350",
           "rating": "4.5",
-          "id": 3,
+          "id": 10,
           "size": "8"
         },
         {
@@ -103,7 +112,7 @@
           "price": "1599",
           "strikedOfprice": "2500",
           "rating": "4.5",
-          "id": 3,
+          "id": 11,
           "size": "6"
         },
         {
@@ -112,11 +121,11 @@
           "price": "725",
           "strikedOfprice": "1249",
           "rating": "4.5",
-          "id": 3,
+          "id": 12,
           "size": "7"
         }
       ],
-      "casual shoes": [
+      "casualshoes": [
         {
           "name": "Aadi Outdoor Black Casual Shoes",
           "image": "https://n3.sdlcdn.com/imgs/j/a/o/Aadi-Outdoor-Black-Casual-Shoes-SDL716017712-1-5ca34.jpeg",
@@ -132,7 +141,7 @@
           "price": "549",
           "strikedOfprice": "669",
           "rating": "4",
-          "id": 1,
+          "id": 2,
           "size": "6"
         },
         {
@@ -141,7 +150,7 @@
           "price": "749",
           "strikedOfprice": "2999",
           "rating": "4",
-          "id": 1,
+          "id": 3,
           "size": "6"
         },
         {
@@ -150,7 +159,7 @@
           "price": "399",
           "strikedOfprice": "399",
           "rating": "4",
-          "id": 1,
+          "id": 4,
           "size": "6"
         },
         {
@@ -159,7 +168,7 @@
           "price": "539",
           "strikedOfprice": "999",
           "rating": "4",
-          "id": 1,
+          "id": 5,
           "size": "6"
         },
         {
@@ -168,7 +177,7 @@
           "price": "749",
           "strikedOfprice": "2669",
           "rating": "4",
-          "id": 1,
+          "id": 6,
           "size": "6"
         },
         {
@@ -177,7 +186,7 @@
           "price": "825",
           "strikedOfprice": "999",
           "rating": "4",
-          "id": 1,
+          "id": 7,
           "size": "6"
         },
         {
@@ -186,7 +195,7 @@
           "price": "499",
           "strikedOfprice": "999",
           "rating": "4",
-          "id": 1,
+          "id": 8,
           "size": "6"
         },
         {
@@ -195,7 +204,7 @@
           "price": "799",
           "strikedOfprice": "1999",
           "rating": "4",
-          "id": 1,
+          "id": 9,
           "size": "6"
         },
         {
@@ -204,7 +213,7 @@
           "price": "539",
           "strikedOfprice": "999",
           "rating": "4",
-          "id": 1,
+          "id": 10,
           "size": "6"
         },
         {
@@ -213,7 +222,7 @@
           "price": "649",
           "strikedOfprice": "789",
           "rating": "4",
-          "id": 1,
+          "id": 11,
           "size": "6"
         },
         {
@@ -222,7 +231,7 @@
           "price": "499",
           "strikedOfprice": "1999",
           "rating": "4",
-          "id": 1,
+          "id": 12,
           "size": "6"
         }
       ]
@@ -260,7 +269,7 @@
           "price": "269",
           "strikedOfprice": "1599",
           "rating": "4.5",
-          "id": 3
+          "id": 4
         },
         {
           "name": "Veirdo - 100% Cotton Regular Fit Black Men's T-Shirt ( Pack of 2 )",
@@ -268,7 +277,7 @@
           "price": "499",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3
+          "id": 5
         },
         {
           "name": "NOW OR NEVER - Cotton Blend Regular Fit Black Men's T-Shirt ( Pack of 2 )",
@@ -276,7 +285,7 @@
           "price": "575",
           "strikedOfprice": "1726",
           "rating": "4.5",
-          "id": 3
+          "id": 6
         },
         {
           "name": "KAPASIYA - Cotton Blend Regular Fit Orange Men's T-Shirt ( Pack of 1 )",
@@ -284,7 +293,7 @@
           "price": "650",
           "strikedOfprice": "1289",
           "rating": "4.5",
-          "id": 3
+          "id": 7
         },
         {
           "name": "KAPASIYA - Cotton Blend Regular Fit Yellow Men's T-Shirt ( Pack of 1 )",
@@ -292,7 +301,7 @@
           "price": "540",
           "strikedOfprice": "1240",
           "rating": "4.5",
-          "id": 3
+          "id": 8
         },
         {
           "name": "Maniac - 100% Cotton Slim Fit White Men's T-Shirt ( Pack of 1 )",
@@ -300,7 +309,7 @@
           "price": "419",
           "strikedOfprice": "1720",
           "rating": "4.5",
-          "id": 3
+          "id": 9
         },
         {
           "name": "Maniac - 100% Cotton Slim Fit Navy Men's T-Shirt ( Pack of 1 )",
@@ -308,7 +317,7 @@
           "price": "439",
           "strikedOfprice": "1239",
           "rating": "4.5",
-          "id": 3
+          "id": 10
         },
         {
           "name": "AUSK - Cotton Blend Regular Fit Blue Men's T-Shirt ( Pack of 1 )",
@@ -316,7 +325,7 @@
           "price": "389",
           "strikedOfprice": "1234",
           "rating": "4.5",
-          "id": 3
+          "id": 11
         },
         {
           "name": "David Crew - 100% Cotton Regular Fit Multi Men's T-Shirt ( Pack of 1 )",
@@ -324,7 +333,7 @@
           "price": "349",
           "strikedOfprice": "999",
           "rating": "4.5",
-          "id": 3
+          "id": 12
         },
         {
           "name": "David Crew - Cotton Blend Regular Fit Grey Men's T-Shirt ( Pack of 1 )",
@@ -332,7 +341,7 @@
           "price": "299",
           "strikedOfprice": "500",
           "rating": "4.5",
-          "id": 3
+          "id": 13
         }
       ],
       "Shirt": [
