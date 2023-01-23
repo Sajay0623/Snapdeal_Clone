@@ -4,7 +4,9 @@ import Login from '../Pages/Login'
 import Body from '../Body'
 import Order from "../Pages/Order"
 import Product from "../Pages/Product"
-
+import Seller from "../Pages/SellOnUs"
+import Admin from "../Pages/AdminPost"
+import Single from "../Pages/SingleProd"
 export default function AllRoutes() {
 
     return (
@@ -17,6 +19,10 @@ export default function AllRoutes() {
             <Route path="/login" element={<Login />}></Route>
             <Route path="/order" element={<Order />}></Route>
             <Route path="/product" element={<Product />} ></Route>
+            <Route path="/single" element={<Single />} ></Route>
+            <Route path="/seller" element={<Admin />} ></Route>
+            {/* <Route path="/admin" element={<Admin />} ></Route> */}
+
 
         </Routes>
 

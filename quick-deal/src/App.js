@@ -13,14 +13,7 @@ function App() {
     <Box className="App" bg={'#F7F7F7'} >
    
       <AllRoutes/>
-     
     
-     
-
-
-
-
-
     </Box>
 
   );

@@ -26,14 +26,14 @@ export default function Login() {
     console.log(login)
     const { username, password } = login
     return (
-        <Box h='1000px' w='80%'m='auto' border={'1px solid black'}>
-            <Box m='auto' w='20%' py={10}>
+        <Box  w='80%' m='auto'  >
+            <Box m='auto' w='20%' py={3}>
                 <Link to='/'>
-                    <Image w='100%' src='https://i.postimg.cc/yxt1pyrx/Quick-Deal.png' />
+                    <Image w='100%' h = "70px" src='https://i.postimg.cc/yxt1pyrx/Quick-Deal.png' />
                 </Link>
             </Box>
 
-            <Box bg='#E0FFFF' w='40%' m='auto' borderRadius={15} pt={20} pb={70} >
+            <Box bg='#E0FFFF' w='40%'   m='auto' borderRadius={15} pt={1} pb={10} >
                 <Heading size='2xl' textAlign={'center'} >LOG IN</Heading>
                 <Box w='85%' m='auto'>
                     <FormControl textAlign='left'>
@@ -44,8 +44,8 @@ export default function Login() {
                         <Button onClick={handleclick} mt={5} w='full' borderRadius='full' color='white' bg='#0693e3'> Log In</Button>
                     </FormControl>
                 </Box>
-                <Text fontSize={20} py={10} textAlign = {'center'}  >Or continue with</Text>
-                <Box pt={10} w='40%' m='auto' sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                <Text fontSize={20} py={6} textAlign={'center'}  >Or continue with</Text>
+                <Box pt={1} w='40%' m='auto' sx={{ display: 'flex', justifyContent: 'space-between' }}>
                     <Box h={16} w={16} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', bg: 'white', borderRadius: '10px' }}>
                         <Image h='50%' src='https://www.shareicon.net/data/512x512/2016/07/10/119930_google_512x512.png'></Image>
                     </Box>
@@ -57,7 +57,7 @@ export default function Login() {
                     </Box>
 
                 </Box>
-                <Text mt={10} textAlign = {'center'} >New to QuickDeal?
+                <Text mt={10} textAlign={'center'} >New to QuickDeal?
                     <Link to='/signup'>Create an account</Link></Text>
             </Box>
         </Box>
