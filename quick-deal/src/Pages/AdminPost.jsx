@@ -15,7 +15,7 @@ function Admin() {
     const navigate = useNavigate()
     const handlsubmit = (e) => {
         e.preventDefault()
-        axios.post("http://localhost:3004/data", { pData }).then(function (response) {
+        axios.post("http://localhost:3004/data", { name: pData.name, image: pData.image, price: pData.price, rating: pData.rating }).then(function (response) {
             <Navigate to="/product" />;
         })
             .catch(function (error) {

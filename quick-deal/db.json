@@ -8,24 +8,6 @@
       "rating": "4.5",
       "id": 1,
       "size": "8"
-    },
-    {
-      "pData": {
-        "image": "https://i.postimg.cc/15DML85R/10002.jpg",
-        "name": "ajay",
-        "price": "1299",
-        "rating": "3.5"
-      },
-      "id": 2
-    },
-    {
-      "pData": {
-        "image": "",
-        "name": "",
-        "price": "",
-        "rating": "3.5"
-      },
-      "id": 3
     }
   ],
   "Men_Fashion": {
@@ -559,7 +541,7 @@
       ]
     }
   },
-  "Women's_Fashion": {
+  "Women_Fashion": {
     "icon": "https://i2.sdlcdn.com/img/leftnavicon09/30x30home_living2.png",
     "title": "Women's Fashion",
     "Clothing": [
@@ -662,7 +644,7 @@
             "id": 3
           }
         ],
-        "salwar suit": [
+        "salwar_suit": [
           {
             "name": "Miss Ethnik Maroon Georgette Pakistani Semi-Stitched Suit - Single",
             "image": "https://n1.sdlcdn.com/imgs/k/d/a/Miss-Ethnik-Maroon-Georgette-Pakistani-SDL392726751-1-a4817.jpg",
@@ -1060,7 +1042,7 @@
         ]
       },
       {
-        "flats & sandals": [
+        "flats_sandals": [
           {
             "name": "Street Style Store White Flats",
             "image": "https://n4.sdlcdn.com/imgs/k/d/9/Street-Style-Store-White-Flats-SDL678817112-1-87e59.jpg",
@@ -1160,7 +1142,7 @@
         ]
       },
       {
-        "slipper & flipflop": [
+        "slipper_flipflop": [
           {
             "name": "Ryan Overseas White Slippers",
             "image": "https://n2.sdlcdn.com/imgs/j/x/i/Ryan-Overseas-White-Slippers-SDL296059117-1-1467b.jpg",
